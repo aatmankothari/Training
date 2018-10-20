@@ -5,7 +5,7 @@ import java.net.*;
 public class URLConnectionExample {
 	public static void main(String[] args) {
 		try {
-			URL url = new URL("http://google.com");
+			URLi url = new URL("http://google.com");
 			URLConnection urlcon = url.openConnection();
 			InputStream stream = urlcon.getInputStream();
 			int i;
